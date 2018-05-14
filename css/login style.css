@@ -2,21 +2,9 @@ label{
 	color: white;
 }
 
-#content{
-	width: 100%;
-}
-
-#loginBox{
+section{
 	margin: 0 auto;
 	width: 500px;
-}
-
-#loginForm{
-	width: 100%;
-	margin-top: 10px;
-	background-color: rgba(15, 15, 15, 0.8);
-	padding: 10px;
-	border-radius: 20px;
 }
 
 .flatBtn{
@@ -28,28 +16,30 @@ label{
 	padding: 10px 0px 10px 5px;
 }
 
-#loginButton{
-	border-bottom-right-radius: 15px;
+form{
+	width: 100%;
+	margin-top: 10px;
+	background-color: rgba(15, 15, 15, 0.8);
+	padding: 10px;
+	border-radius: 20px;
 }
 
-#loginInputs input{
+form div:first-of-type input{
 	width: 100%;
 	margin-bottom: 20px;
 }
 
-#loginInputs label{
+form div:first-of-type label{
 	font-size: 1.2em;
 }
 
-#loginBottom{
-	display: flex;
-	justify-content: flex-end;
-	align-self: flex-end;
+form > div input.flatBtn{
+	border-bottom-right-radius: 15px;
 }
 
 /* Breakpoints */
 @media screen and (max-width: 571px) {
-	#loginBox{
+	section{
 		margin: 0 auto;
 		width: 350px;
 	}

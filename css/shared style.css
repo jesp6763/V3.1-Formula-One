@@ -137,6 +137,12 @@ header > nav ul li a:hover{
 	flex-wrap: wrap;
 }
 
+.bottomRow{
+	display: flex;
+	justify-content: flex-end;
+	align-self: flex-end;
+}
+
 /* List */
 .listTitle{
 	color: white;
