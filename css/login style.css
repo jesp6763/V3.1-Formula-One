@@ -1,0 +1,56 @@
+label{
+	color: white;
+}
+
+#content{
+	width: 100%;
+}
+
+#loginBox{
+	margin: 0 auto;
+	width: 500px;
+}
+
+#loginForm{
+	width: 100%;
+	margin-top: 10px;
+	background-color: rgba(15, 15, 15, 0.8);
+	padding: 10px;
+	border-radius: 20px;
+}
+
+.flatBtn{
+	padding: 10px 40px;
+	font-size: 1.2em;
+}
+
+.flatTextbox{
+	padding: 10px 0px 10px 5px;
+}
+
+#loginButton{
+	border-bottom-right-radius: 15px;
+}
+
+#loginInputs input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#loginInputs label{
+	font-size: 1.2em;
+}
+
+#loginBottom{
+	display: flex;
+	justify-content: flex-end;
+	align-self: flex-end;
+}
+
+/* Breakpoints */
+@media screen and (max-width: 571px) {
+	#loginBox{
+		margin: 0 auto;
+		width: 350px;
+	}
+}
